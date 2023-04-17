@@ -1,5 +1,27 @@
+/*mixin for the grid portion + media queries*/
 @mixin thegrid {
-    .grid {
-        display: grid;
+    /*mobile media query*/
+    @media screen and (max-width: $mobile) {
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
     }
+
+    /*tablet media query*/
+    @media screen and (min-width: $tablet) {
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    }
+    
+    /*desktop media query*/
+    @media screen and (min-width: $desktop) {
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+
 }
