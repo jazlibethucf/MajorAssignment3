@@ -8,6 +8,7 @@ h1 {
     font-family:$hfont;
     color: $black;
     background-color:$bgcolor;
+    margin: 5px 400px;
 }
 
 h2 {
@@ -15,21 +16,23 @@ h2 {
     font-family: $hfont;
     background-color: $gcol;
     border-radius: 50px;
+    margin: 5px 400px;
 }
 /*body styling and background image*/
 body {
+    font-family:$bfont;
+    color: $white;
+    /*background image styling*/
     background-image: url("../images/backgroundimage.jpg");
     width: 100%;
     height: 400px;
     background-size: 100% 100%;
-    font-family:$bfont;
-    color: $white;
 }
 
 p {
     background-color: $bgcolor;
     color: $black;
-    margin: 70px;
+    margin: 5px 100px;
 }
 
 /*logo image*/
