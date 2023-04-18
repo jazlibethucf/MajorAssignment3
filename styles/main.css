@@ -1,1 +1,38 @@
-/*# sourceMappingURL=main.css.map */
+/*importing variables file*/ /*media query variables*/
+/*colors*/
+/*border stuff*/
+/*fonts*/
+/*Universal styling*/
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: 10px groove gold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*mixin for the grid portion + media queries*/
+/*media query variables*/
+/*colors*/
+/*border stuff*/
+/*fonts*/
+/*mobile media query*/
+@media screen and (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+/*tablet media query*/
+@media screen and (min-width: 720px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+/*desktop media query*/
+@media screen and (min-width: 721px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,16 @@
+/*importing variables file*/
+@import 'variables';
+
+/*Universal styling*/
+h1 {
+    text-align: center;
+    color: $black;
+    border: $hborder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 /*mixin for the grid portion + media queries*/
 @mixin thegrid {
     /*mobile media query*/
@@ -23,5 +36,4 @@
             grid-template-columns: auto auto auto auto;
         }
     }
-
 }

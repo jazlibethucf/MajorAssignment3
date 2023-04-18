@@ -1,1 +1,13 @@
-/*# sourceMappingURL=mixins.css.map */
+/*importing variables file*/ /*media query variables*/
+/*colors*/
+/*border stuff*/
+/*fonts*/
+/*Universal styling*/
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: 10px groove gold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*mixin for the grid portion + media queries*//*# sourceMappingURL=mixins.css.map */
