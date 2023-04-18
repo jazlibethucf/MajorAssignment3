@@ -10,6 +10,12 @@ h1 {
     background-color:$bgcolor;
 }
 
+h2 {
+    text-align: center;
+    font-family: $hfont;
+    background-color: $gcol;
+    border-radius: 50px;
+}
 /*body styling and background image*/
 body {
     background-image: url("../images/backgroundimage.jpg");
