@@ -16,7 +16,7 @@ h1 {
 h2 {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: rgb(141, 127, 44);
+  background-color: rgb(141, 115, 44);
   border-radius: 50px;
 }
 
@@ -31,8 +31,9 @@ body {
 }
 
 p {
-  background-color: rgb(255, 202, 6);
-  color: rgb(250, 235, 151);
+  background-color: rgb(253, 253, 193);
+  color: rgb(0, 0, 0);
+  margin: 70px;
 }
 
 /*logo image*/
