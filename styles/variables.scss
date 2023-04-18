@@ -1,14 +1,27 @@
 /*media query variables*/
-$mobile: 600px;
-$tablet: 720px;
+$mobile: 700px;
+$tablet: 701px;
 $desktop: 721px;
 
 /*colors*/
 $gold: rgb(255,202,6);
 $black: rgb(0,0,0);
+$white: white;
+$bgcolor: rgb(253, 253, 193);
+$bgcolor2: rgb(133, 133, 121);
+/*grid colors*/
+$gcol: rgb(141, 127, 44);
+$gicol: rgb(250, 235, 151);
 
 /*border stuff*/
 $hborder: 10px groove gold;
+$gborder: 10px outset gold;
+$g2border: 10px inset gold;
 
-/*images*/
-$bg: images/backgroundimage.jpg;
+/*fonts*/
+$hfont:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$bfont:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+/*grid stuff*/
+$gpad: 5px;
+$gmarg: 5px;
