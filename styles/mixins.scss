@@ -62,7 +62,7 @@ body {
     @media screen and (min-width: $tablet) {
         .grid {
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto;
             border:$g2border;
         }
     }
