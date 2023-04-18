@@ -30,6 +30,11 @@ body {
   color: white;
 }
 
+p {
+  background-color: rgb(255, 202, 6);
+  color: rgb(250, 235, 151);
+}
+
 /*logo image*/
 .logo {
   max-width: 350px;
@@ -73,7 +78,7 @@ body {
   }
 }
 /*desktop media query*/
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 702px) {
   .grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
