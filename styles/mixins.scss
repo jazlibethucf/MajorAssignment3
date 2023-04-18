@@ -20,6 +20,11 @@ body {
     color: $white;
 }
 
+/*logo image PICTURE WONT GO TO THE MIDDLE WHYY*/
+.logo {
+    max-width: 50%;
+    text-align: center;
+}
 
 /*mixin for the grid portion + media queries*/
 @mixin thegrid {
