@@ -23,10 +23,11 @@ body {
   color: white;
 }
 
-/*logo image PICTURE WONT GO TO THE MIDDLE WHYY*/
+/*logo image*/
 .logo {
-  max-width: 50%;
+  max-width: 350px;
   text-align: center;
+  margin: auto;
 }
 
 /*mixin for the grid portion + media queries*/
