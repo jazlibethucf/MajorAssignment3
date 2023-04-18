@@ -45,6 +45,10 @@ body {
     margin: 5px;
     text-align: center;
   }
+  ul {
+    list-style-type: square;
+    text-align: left;
+  }
 }
 /*tablet media query*/
 @media screen and (min-width: 701px) {
