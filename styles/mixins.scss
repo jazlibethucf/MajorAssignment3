@@ -30,10 +30,14 @@ body {
             grid-template-columns: auto auto;
             background-color:$gcol;
             border:$gborder;
+            color: $black;
         }
 
         .grid-item {
             background-color:$gicol;
+            padding: $gpad;
+            margin: $gmarg;
+            text-align: center;
         }
     }
 
@@ -52,12 +56,15 @@ body {
             display: grid;
             grid-template-columns: auto auto auto auto;
             border: $gborder;
+            background-color: $gcol;
+            color:$black;
         }
 
         .grid-item {
             padding: $gpad;
             margin: $gmarg;
-            background-color: $bgcolor2;
+            background-color: $gicol;
+            text-align: center;
         }
     }
 }
