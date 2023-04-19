@@ -1,9 +1,10 @@
 /*importing variables and normalize file*/ /*media query variables*/
 /*colors*/
 /*grid colors*/
-/*border stuff*/
+/*border styling*/
 /*fonts*/
-/*grid stuff*/
+/*grid styling*/
+/*margins and padding*/
 /*Universal styling*/
 h1 {
   text-align: center;
@@ -11,7 +12,6 @@ h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
   background-color: rgb(253, 253, 193);
-  margin: 5px 400px;
 }
 
 h2 {
@@ -19,7 +19,6 @@ h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: rgb(141, 115, 44);
   border-radius: 50px;
-  margin: 5px 400px;
 }
 
 /*body styling and background image*/
@@ -36,12 +35,12 @@ body {
 p {
   background-color: rgb(255, 237, 176);
   color: rgb(0, 0, 0);
-  margin: 5px 100px;
+  margin: 5px;
 }
 
 /*logo image*/
 .logo {
-  max-width: 350px;
+  max-width: 300px;
   text-align: center;
   margin: auto;
 }

@@ -8,15 +8,13 @@ h1 {
     font-family:$hfont;
     color: $black;
     background-color:$bgcolor;
-    margin: 5px 400px;
 }
 
 h2 {
     text-align: center;
     font-family: $hfont;
     background-color: $gcol;
-    border-radius: 50px;
-    margin: 5px 400px;
+    border-radius: $border;
 }
 /*body styling and background image*/
 body {
@@ -32,12 +30,12 @@ body {
 p {
     background-color: $gicol;
     color: $black;
-    margin: 5px 100px;
+    margin: $gmarg;
 }
 
 /*logo image*/
 .logo {
-    max-width: 350px;
+    max-width: 300px;
     text-align: center;
     margin: auto;
 }
