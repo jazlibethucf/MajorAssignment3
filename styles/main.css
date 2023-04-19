@@ -4,7 +4,9 @@
 /*border styling*/
 /*fonts*/
 /*grid styling*/
-/*margins and padding*/
+/*logo styling*/
+/*margins*/
+/*image styling*/
 /*Universal styling*/
 h1 {
   text-align: center;
@@ -32,10 +34,11 @@ body {
   background-size: 100% 100%;
 }
 
-p {
+.future, p {
   background-color: rgb(255, 237, 176);
   color: rgb(0, 0, 0);
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /*logo image*/
@@ -52,7 +55,9 @@ p {
 /*border styling*/
 /*fonts*/
 /*grid styling*/
-/*margins and padding*/
+/*logo styling*/
+/*margins*/
+/*image styling*/
 /*mobile media query*/
 @media screen and (max-width: 700px) {
   .grid {
@@ -89,11 +94,15 @@ p {
     border: 10px outset gold;
     background-color: rgb(141, 115, 44);
     color: rgb(0, 0, 0);
+    margin: 50px;
   }
   .grid-item {
     padding: 5px;
     margin: 5px;
     background-color: rgb(255, 237, 176);
     text-align: center;
+  }
+  .future, p {
+    margin: 50px;
   }
 }/*# sourceMappingURL=main.css.map */

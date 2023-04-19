@@ -22,20 +22,21 @@ body {
     color: $white;
     /*background image styling*/
     background-image: url("../images/backgroundimage.jpg");
-    width: 100%;
-    height: 400px;
-    background-size: 100% 100%;
+    width:$width;
+    height:$height;
+    background-size:$imgsize;
 }
 
-p {
+.future, p {
     background-color: $gicol;
     color: $black;
-    margin: $gmarg;
+    margin-top: $gmarg;
+    margin-bottom: $gmarg;
 }
 
 /*logo image*/
 .logo {
-    max-width: 300px;
+    max-width: $lwidth;
     text-align: center;
     margin: auto;
 }
@@ -82,6 +83,7 @@ p {
             border: $gborder;
             background-color: $gcol;
             color:$black;
+            margin:$marg;
         }
 
         .grid-item {
@@ -89,6 +91,10 @@ p {
             margin: $gmarg;
             background-color: $gicol;
             text-align: center;
+        }
+
+        .future, p {
+            margin:$marg;
         }
     }
 }
