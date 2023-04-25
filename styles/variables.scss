@@ -1,7 +1,7 @@
 /*media query variables*/
 $mobile: 700px;
 $tablet: 701px;
-$desktop: 702px;
+$desktop: 1000px;
 
 /*colors*/
 $gold: rgb(255,202,6);
@@ -9,6 +9,7 @@ $black: rgb(0,0,0);
 $white: white;
 $bgcolor: rgb(253, 253, 193);
 $bgcolor2: rgb(133, 133, 121);
+
 /*grid colors*/
 $gcol: rgb(141, 115, 44);
 $gicol: rgb(255, 237, 176);
@@ -16,7 +17,7 @@ $gicol: rgb(255, 237, 176);
 /*border styling*/
 $hborder: 10px groove gold;
 $gborder: 10px outset gold;
-$g2border: 10px inset gold;
+$g2border: 6px solid rgb(0, 0, 0);
 $border: 50px;
 
 /*fonts*/
@@ -37,3 +38,6 @@ $marg: 50px;
 $imgsize: 100% 100%;
 $width: 100%;
 $height: 400px;
+$imgw1: 200px;
+$imgw2: 300px;
+$imgm: 5px;

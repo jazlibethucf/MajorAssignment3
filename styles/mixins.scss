@@ -3,6 +3,7 @@
 
 /*Universal styling*/
 @mixin universal {
+    /*title styles*/
     h1 {
         text-align: center;
         border: $hborder;
@@ -17,6 +18,7 @@
         background-color: $gcol;
         border-radius: $border;
     }
+
     /*body styling and background image*/
     body {
         font-family:$bfont;
@@ -28,13 +30,6 @@
         background-size:$imgsize;
     }
 
-    .future, p {
-        background-color: $gicol;
-        color: $black;
-        margin-top: $gmarg;
-        margin-bottom: $gmarg;
-    }
-
     /*logo image*/
     .logo {
         max-width: $lwidth;
@@ -42,9 +37,10 @@
         margin: auto;
     }
 
-    /*valencia image*/
-    .img1 {
-        max-width: 200px;
+    /*General formatting for all images*/
+    .img1, .img2, .img3 {
+        max-width: $imgw1;
+        margin: $imgm;
     }
 }
 
@@ -54,7 +50,7 @@
     @media screen and (max-width: $mobile) {
         .grid {
             display: grid;
-            grid-template-columns: auto a\uto;
+            grid-template-columns: auto auto;
             background-color:$gcol;
             border:$gborder;
             color: $black;
@@ -71,6 +67,19 @@
             list-style-type: square;
             text-align: left;
         }
+
+        .future, p {
+            background-color: $gicol;
+            color: $black;
+            margin-top: $gmarg;
+            margin-bottom: $gmarg;
+        }
+
+        .img4 {
+            text-align: center;
+            max-width: $imgw2;
+            margin: auto;
+        }
     }
 
     /*tablet media query*/
@@ -78,7 +87,30 @@
         .grid {
             display: grid;
             grid-template-columns: auto auto;
+            background-color: $black;
             border:$g2border;
+            color:black;
+        }
+        .grid-item {
+            background-color:$gicol;
+            padding: $gpad;
+            margin: $gmarg;
+            text-align: center;
+        }
+
+        .future, p {
+            margin: 0px 75px;
+            background-color: $gicol;
+            color: $black;
+        }
+
+        .img4 {
+            margin: auto;
+            max-width: $imgw2;
+        }
+
+        .grad {
+            text-align: center;
         }
     }
     
