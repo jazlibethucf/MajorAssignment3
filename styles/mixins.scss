@@ -54,7 +54,7 @@
     @media screen and (max-width: $mobile) {
         .grid {
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: auto a\uto;
             background-color:$gcol;
             border:$gborder;
             color: $black;
