@@ -61,6 +61,7 @@
             padding: $gpad;
             margin: $gmarg;
             text-align: center;
+            border: $giborder;
         }
 
         ul {
@@ -76,9 +77,12 @@
         }
 
         .img4 {
-            text-align: center;
-            max-width: $imgw2;
             margin: auto;
+            max-width: $imgw2;
+        }
+
+        .grad {
+            text-align: center;
         }
     }
 
@@ -94,19 +98,20 @@
         .grid-item {
             background-color:$gicol;
             padding: $gpad;
-            margin: $gmarg;
             text-align: center;
+            border: $giborder;
         }
 
         .future, p {
             margin: 0px 75px;
             background-color: $gicol;
             color: $black;
+            padding: 10px;
         }
-
         .img4 {
             margin: auto;
             max-width: $imgw2;
+            border: $imgborder;
         }
 
         .grad {
@@ -134,6 +139,7 @@
 
         .future, p {
             margin:0px 200px;
+            padding: 10px;
         }
     }
 }

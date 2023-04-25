@@ -17,7 +17,9 @@ $gicol: rgb(255, 237, 176);
 /*border styling*/
 $hborder: 10px groove gold;
 $gborder: 10px outset gold;
-$g2border: 6px solid rgb(0, 0, 0);
+$g2border: 6px solid rgb(133, 133, 121);
+$giborder: 2px solid rgb(141,115,44);
+$imgborder: 5px solid white;
 $border: 50px;
 
 /*fonts*/
@@ -26,13 +28,13 @@ $bfont:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 /*grid styling*/
 $gpad: 5px;
-$gmarg: 5px;
+$gmarg: 5px 0px;
 
 /*logo styling*/
 $lwidth: 300px;
 
 /*margins*/
-$marg: 50px;
+$marg: 50px 0px;
 
 /*image styling*/
 $imgsize: 100% 100%;
