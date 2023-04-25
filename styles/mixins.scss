@@ -2,43 +2,50 @@
 @import 'variables';
 
 /*Universal styling*/
-h1 {
-    text-align: center;
-    border: $hborder;
-    font-family:$hfont;
-    color: $black;
-    background-color:$bgcolor;
-}
+@mixin universal {
+    h1 {
+        text-align: center;
+        border: $hborder;
+        font-family:$hfont;
+        color: $black;
+        background-color:$bgcolor;
+    }
 
-h2 {
-    text-align: center;
-    font-family: $hfont;
-    background-color: $gcol;
-    border-radius: $border;
-}
-/*body styling and background image*/
-body {
-    font-family:$bfont;
-    color: $white;
-    /*background image styling*/
-    background-image: url("../images/backgroundimage.jpg");
-    width:$width;
-    height:$height;
-    background-size:$imgsize;
-}
+    h2 {
+        text-align: center;
+        font-family: $hfont;
+        background-color: $gcol;
+        border-radius: $border;
+    }
+    /*body styling and background image*/
+    body {
+        font-family:$bfont;
+        color: $white;
+        /*background image styling*/
+        background-image: url("../images/backgroundimage.jpg");
+        width:$width;
+        height:$height;
+        background-size:$imgsize;
+    }
 
-.future, p {
-    background-color: $gicol;
-    color: $black;
-    margin-top: $gmarg;
-    margin-bottom: $gmarg;
-}
+    .future, p {
+        background-color: $gicol;
+        color: $black;
+        margin-top: $gmarg;
+        margin-bottom: $gmarg;
+    }
 
-/*logo image*/
-.logo {
-    max-width: $lwidth;
-    text-align: center;
-    margin: auto;
+    /*logo image*/
+    .logo {
+        max-width: $lwidth;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*valencia image*/
+    .img1 {
+        max-width: 200px;
+    }
 }
 
 /*mixin for the grid portion + media queries*/

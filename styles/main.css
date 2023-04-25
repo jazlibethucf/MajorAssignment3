@@ -7,47 +7,6 @@
 /*logo styling*/
 /*margins*/
 /*image styling*/
-/*Universal styling*/
-h1 {
-  text-align: center;
-  border: 10px groove gold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(0, 0, 0);
-  background-color: rgb(253, 253, 193);
-}
-
-h2 {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: rgb(141, 115, 44);
-  border-radius: 50px;
-}
-
-/*body styling and background image*/
-body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: white;
-  /*background image styling*/
-  background-image: url("../images/backgroundimage.jpg");
-  width: 100%;
-  height: 400px;
-  background-size: 100% 100%;
-}
-
-.future, p {
-  background-color: rgb(255, 237, 176);
-  color: rgb(0, 0, 0);
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-/*logo image*/
-.logo {
-  max-width: 300px;
-  text-align: center;
-  margin: auto;
-}
-
 /*mixin for the grid portion + media queries*/
 /*media query variables*/
 /*colors*/
@@ -105,4 +64,49 @@ body {
   .future, p {
     margin: 50px;
   }
+}
+/*Universal styling*/
+h1 {
+  text-align: center;
+  border: 10px groove gold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(253, 253, 193);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(141, 115, 44);
+  border-radius: 50px;
+}
+
+/*body styling and background image*/
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  /*background image styling*/
+  background-image: url("../images/backgroundimage.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+.future, p {
+  background-color: rgb(255, 237, 176);
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*logo image*/
+.logo {
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+/*valencia image*/
+.img1 {
+  max-width: 200px;
 }/*# sourceMappingURL=main.css.map */
