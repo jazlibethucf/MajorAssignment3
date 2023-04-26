@@ -7,7 +7,6 @@
     h1 {
         text-align: center;
         border: $hborder;
-        font-family:$hfont;
         color: $black;
         background-color:$bgcolor;
     }
@@ -41,6 +40,13 @@
     .img1, .img2, .img3 {
         max-width: $imgw1;
         margin: $imgm;
+    }
+
+    /*conditional; if my variable black is black, then the font of h1 will be cambria*/
+    @if ($black ==black) {
+        h1 {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
     }
 }
 
@@ -135,7 +141,7 @@
             text-align: center;
         }
 
-        /*position the grid items individually*/
+        /*positioning the grid items individually*/
         .one {
             grid-area:1/1/2/2;
         }
