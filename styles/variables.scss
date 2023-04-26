@@ -3,7 +3,7 @@ $mobile: 700px;
 $tablet: 701px;
 $desktop: 1000px;
 
-/*colors*/
+/*color scheme colors*/
 $gold: rgb(255,202,6);
 $black: rgb(0,0,0);
 $white: white;
@@ -26,12 +26,9 @@ $border: 50px;
 $hfont:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 $bfont:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-/*grid styling*/
+/*grid margins and padding*/
 $gpad: 5px;
 $gmarg: 5px 0px;
-
-/*logo styling*/
-$lwidth: 300px;
 
 /*margins and padding*/
 $marg: 50px 0px;
@@ -46,3 +43,4 @@ $height: 400px;
 $imgw1: 200px;
 $imgw2: 300px;
 $imgm: 5px;
+$lwidth: 300px;

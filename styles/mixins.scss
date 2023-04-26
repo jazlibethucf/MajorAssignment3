@@ -1,7 +1,7 @@
 /*importing variables*/
 @import 'variables';
 
-/*Universal styling*/
+/*Universal styling regardless of media query*/
 @mixin universal {
     /*title styles*/
     h1 {
@@ -42,10 +42,11 @@
         margin: $imgm;
     }
 
-    /*conditional; if my variable black is black, then the font of h1 will be cambria*/
-    @if ($black ==black) {
+    /*conditional; if my variable black is black, then the font of h1 will be cambria and font size will be 40px*/
+    @if ($black ==rgb(0,0,0)) {
         h1 {
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:40px;
         }
     }
 }
@@ -85,6 +86,7 @@
         .img4 {
             margin: auto;
             max-width: $imgw2;
+            border:$g2border;
         }
 
         .grad {
@@ -179,6 +181,7 @@
             grid-area:3/4/4/5;
         }
 
+        /*paragraph desktop styling*/
         .future, p {
             margin:$p2marg;
             padding:$parapad;

@@ -1,21 +1,19 @@
 /*importing variables*/ /*media query variables*/
-/*colors*/
+/*color scheme colors*/
 /*grid colors*/
 /*border styling*/
 /*fonts*/
-/*grid styling*/
-/*logo styling*/
+/*grid margins and padding*/
 /*margins and padding*/
 /*image styling*/
-/*Universal styling*/
+/*Universal styling regardless of media query*/
 /*mixin for the grid portion + media queries*/
 /*media query variables*/
-/*colors*/
+/*color scheme colors*/
 /*grid colors*/
 /*border styling*/
 /*fonts*/
-/*grid styling*/
-/*logo styling*/
+/*grid margins and padding*/
 /*margins and padding*/
 /*image styling*/
 /*title styles*/
@@ -57,9 +55,10 @@ body {
   margin: 5px;
 }
 
-/*conditional; if my variable black is black, then the font of h1 will be cambria*/
+/*conditional; if my variable black is black, then the font of h1 will be cambria and font size will be 40px*/
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
 }
 
 /*mobile media query*/
@@ -91,6 +90,7 @@ h1 {
   .img4 {
     margin: auto;
     max-width: 300px;
+    border: 6px solid rgb(133, 133, 121);
   }
   .grad {
     text-align: center;
@@ -179,6 +179,7 @@ h1 {
   .twelve {
     grid-area: 3/4/4/5;
   }
+  /*paragraph desktop styling*/
   .future, p {
     margin: 0px 200px;
     padding: 10px;
